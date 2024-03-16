@@ -1,0 +1,36 @@
+.app{
+    position: relative;
+    padding: 16px;
+    background-color: #13131a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.side-bar{
+    display: flex;
+    margin-right: 40px;
+    position: relative;
+}
+
+.nav-bar{
+    flex: 1 1 0%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+@media (max-width: 640px) {
+    .app{
+        margin-right: -8px;
+    }
+    .side-bar{
+        display: none;
+    }
+    .nav-bar{
+        max-width: 100%;
+        padding-right: 20px;
+    }
+}

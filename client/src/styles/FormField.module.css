@@ -1,0 +1,60 @@
+.labels{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1 1 0%;
+}
+
+.spans{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #808191;
+    margin-bottom: 10px;
+}
+
+.text_area{
+    padding: 15px;
+    outline: none;
+    border-width: 1px;
+    border-color: #3a3a43;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.text_area::placeholder{
+    color: #4b5264;
+}
+
+.input_area{
+    padding: 15px;
+    outline: none;
+    border-width: 1px;
+    border-color: #3a3a43;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.input_area::placeholder{
+     color: #4b5264;
+}
+
+
+@media (max-width: 648px) {
+    .text_area{
+        min-width: 300px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .input_area{
+         min-width: 300px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+

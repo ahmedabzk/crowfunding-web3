@@ -1,0 +1,94 @@
+.campaign{
+    background-color: #1c1c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.title_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #3a3a43;
+    border-radius: 10px;
+}
+
+.title_wrapper h1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 38px;
+    color: white;
+
+}
+
+.forms{
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form_headers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.raised_money{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    background-color: #8c6dfd;
+    height: 120px;
+    border-radius: 10px;
+
+}
+
+.money_img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.raised_money h4{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+}
+
+.goal_section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.btn_styles{
+    background-color: #1dc071;
+}
+
+@media (max-width: 648px) {
+    .campaign{
+        padding: 18px;
+    }
+    .title_wrapper{
+        min-width: 380px;
+    }
+    .title_wrapper h1{
+        font-size: 25px;
+    }
+}
