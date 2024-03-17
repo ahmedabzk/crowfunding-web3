@@ -1,0 +1,153 @@
+.card_wrapper{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #1c1c24;
+    cursor: pointer;
+
+}
+.card_img{
+    width: full;
+    height: 158px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.card_items{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.card_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.card_header_img{
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+.campaign{
+    margin-left: 12px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #808191;
+}
+.card_title_wrapper{
+    display: block;
+}
+.card_title{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    line-height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card_description{
+    margin-top: 5px;
+    font-weight: 400;
+    color: #808191;
+    text-align: left;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.campaign_info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    gap: 8px;
+}
+.amount_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.amount_collected{
+     font-weight: 500;
+    font-size: 16px;
+    color: #b2b3bd;
+    line-height: 22px;
+}
+.target{
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #808191;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.deadline_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.remaining_days{
+    font-weight: 500;
+    font-size: 14px;
+    color: #b2b3bd;
+    line-height: 22px;
+}
+.days_left{
+     margin-top: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #808191;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.campaign_owner{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 12px;
+}
+.thirdweb_wrapper{
+    width: 30px;
+    height: 30px;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #13131a;
+}
+.thirdweb_img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+.owner{
+    flex: 1 1 0%;
+    font-weight: 400;
+    font-size: 12px;
+    color: #808191;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.owner_span{
+    color: #b2b3bd;
+}
+
+
+@media (max-width: 648px) {
+    .card_wrapper{
+        width: 288px;
+    }
+    .target{
+        max-width: 120px;
+    }
+    .days_left{
+        max-width: 120px;
+    }
+}
