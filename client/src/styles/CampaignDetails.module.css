@@ -1,0 +1,255 @@
+.details_headers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.details {
+  flex: 1 1 0%;
+  flex-direction: column;
+}
+.details_img {
+  width: 100%;
+  height: 410px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.details_amount {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: #3a3a43;
+  margin-top: 8px;
+}
+
+.amount {
+  position: absolute;
+  height: 100%;
+  background-color: #4acd8d;
+}
+
+.count_box {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.campaign {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campaign_creator {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  flex: 2 2 0%;
+}
+
+.creator {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.thirdweb_wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.thirdweb_img_wrapper {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #2c2f32;
+  cursor: pointer;
+}
+
+.thirdweb_img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.campaign_owner {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  word-break: break-all;
+}
+
+.number_of_campaigns {
+  margin-top: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #808191;
+}
+.campaign_story {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.description_wrapper {
+  margin-top: 20px;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808191;
+  line-height: 26px;
+  text-align: justify;
+}
+.donators_wrapper {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+}
+.donators {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.item_donator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.number_of_donators {
+  font-weight: 400;
+  font-size: 16px;
+  color: #b2b3bd;
+  line-height: 26px;
+  word-break: break-all;
+}
+.donation {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808191;
+  line-height: 26px;
+  word-break: break-all;
+}
+.no_donators {
+  font-weight: 400;
+  font-size: 16px;
+  color: #808191;
+  line-height: 26px;
+  text-align: justify;
+}
+.fund_wrapper{
+    flex: 1 1 0%;
+}
+
+.fund{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.fund_campaign_wrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background-color: #1c1c24;
+    border-radius: 10px;
+}
+
+.fund_campaign{
+     font-weight: 600;
+    font-size: 20px;
+    color: white;
+     line-height: 30px;
+     text-align: center;
+}
+.input_wrapper{
+     margin-top: 30px;
+}
+.input_ether{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: none;
+    border-width: 1px;
+    border-color: #3a3a43;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+.input_ether::placeholder{
+    color: #4b5264;
+}
+
+.info_wrapper{
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #13131a;
+   border-radius: 10px;
+}
+
+.back_it{
+     font-weight: 600;
+    font-size: 14px;
+    color: white;
+     line-height: 22px;
+
+}
+
+.support_project{
+    margin-top: 20px;
+     font-weight: 400;
+     color: #808191;
+     line-height: 22px;
+}
+
+.custom_btn_style{
+    width: 100%;
+    background-color: #8c6dfd;
+}
+
+@media (max-width: 648px) {
+    .input_ether{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+  .details_headers {
+    flex-direction: row;
+  }
+  .count_box {
+    width: 150px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .campaign {
+    flex-direction: row;
+  }
+}
